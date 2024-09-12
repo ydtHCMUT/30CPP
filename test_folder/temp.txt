@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+
+void Solution (int n) {
+    int a[1000];
+    int k = 0;
+    while (n != 0) {
+        a[k] = n % 10;
+        n /= 10;
+        k++;
+    }
+    cout << a[k - 1];
+    for (int i = k - 2; i > 0; i--) {
+        cout << a[i];
+    }
+    cout << a[0];
+}
+
+
+int main () {
+    int n;
+    cin >> n;
+    Solution (n);
+    return 0;
+}

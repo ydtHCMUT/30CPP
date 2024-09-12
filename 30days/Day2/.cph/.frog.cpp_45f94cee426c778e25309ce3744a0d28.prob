@@ -1,0 +1,1 @@
+{"name":"Local: frog","url":"f:\\learning\\30days\\Day2\\frog.cpp","tests":[{"id":1720609613992,"input":"5 2 3","output":"8"},{"id":1720668888851,"input":"2 2 4","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\learning\\30days\\Day2\\frog.cpp","group":"local","local":true}

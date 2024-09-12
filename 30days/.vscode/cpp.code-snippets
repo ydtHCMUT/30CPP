@@ -1,0 +1,80 @@
+{
+	// Place your learning workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+    "template_1": {
+    "prefix": "template_1",
+    "body": [
+      "#include <iostream>",
+      "#include <string>",
+      "",
+      "using namespace std;",
+      "",
+      "void solution (long long a) {",
+      "    ",
+      "}",
+      "",
+      "int main () {",
+      "    int a;",
+      "    cin >> a;",
+      "    solution (a);",
+      "    return 0;",
+      "}"
+    ],
+    "description": "template_1"
+  },
+  "template_2": {
+  "prefix": "template_2",
+  "body": [
+    "#include <iostream>",
+    "#include <string>",
+    "",
+    "using namespace std;",
+    "",
+    "void solution (long long a, long long b) {",
+    "    ",
+    "}",
+    "",
+    "int main () {",
+    "    int a, b;",
+    "    cin >> a >> b;",
+    "    solution (a, b);",
+    "    return 0;",
+    "}"
+  ],
+  "description": "template_2"
+},"template_3": {
+  "prefix": "template_3",
+  "body": [
+    "#include <iostream>",
+    "#include <string>",
+    "",
+    "using namespace std;",
+    "",
+    "void solution (long long a, long long b, long long c) {",
+    "    ",
+    "}",
+    "",
+    "int main () {",
+    "    int a, b, c;",
+    "    cin >> a >> b>> c;",
+    "    solution (a, b, c);",
+    "    return 0;",
+    "}"
+  ],
+  "description": "template_3"
+}
+}
